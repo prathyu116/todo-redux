@@ -1,0 +1,44 @@
+.update-container{
+    width:400px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 25px;
+}
+.update-container h1{
+    text-align: center;
+    color: white;
+}
+.update-container textarea{
+    height: 140px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+
+
+   
+}
+.update-btn{
+    margin: 30px 0px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+}
+.cancel-btn{
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(228, 176, 45);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.update-btn:hover{
+    background-color: rgb(22, 108, 7);
+}
+.cancel-btn:hover{
+    background-color: yellow;
+}
